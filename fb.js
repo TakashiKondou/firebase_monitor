@@ -1,12 +1,7 @@
 /*initialize*/
 
 var config = {
-    apiKey: "AIzaSyDCXOzrjAxfQX-DXfdbsJUialafStqqYyU",
-    authDomain: "test-d187a.firebaseapp.com",
-    databaseURL: "https://test-d187a.firebaseio.com",
-    projectId: "test-d187a",
-    storageBucket: "test-d187a.appspot.com",
-    messagingSenderId: "907285651086"
+
 };
 firebase.initializeApp(config);
 firebase.auth().signInWithEmailAndPassword("nascofirebase@gmail.com","passnasco");
